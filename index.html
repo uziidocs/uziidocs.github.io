@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Latihan Markup</title>
+        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                $(".slider").bxSlider({
+                    auto: true,
+                    pause: 3000,
+                    controls: true,
+                    pager: true,
+                    mode: 'horizontal'
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <img src="logo.png" alt="logo" />
+                
+                <ul id="menu-utama">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+     
+                <form>
+                    <input type="text" name="search" placeholder="Search..." />
+                </form>
+            </div>
+
+            <div class="slider">
+                <div><img src="jb5 sdd.jfif" alt="Gambar Product" /></div>
+                <div><img src="jb5 uhd.jfif" alt="Gambar Product" /></div>
+                <div><img src="jb5 shd.jfif" alt="Gambar Product" /></div>
+            </div>
+
+            <div id="daftar-artikel">
+                <div class="artikel-1">
+                    <img src="jb5 sdd.jfif" alt="Gambar Product" />
+                    <h1>Jetbus 5 SDD</h1>
+                    <b>Premium</b><b>Double Deck</b><b>Suite Class</b>
+                    <p>Our largest and spacious passenger coach bus that combines elegance, safety, and overall on two levels.</p>
+                    <a href="">Read more</a>
+                </div>
+            
+                <div class="artikel-2">
+                    <img src="jb5 uhd.jfif" alt="Gambar Artikel" />
+                    <h1> Jetbus 5 UHD</h1>
+                    <b>Large Capacity</b><b>Ultra Deck</b><b>Premium Class</b>
+                    <p>Maximum passenger seats and the largest cargo capacity.</p>
+                    <a href="">Read more</a>
+                </div>
+     
+               <div class="artikel-3">
+                    <img src="jb5 shd.jfif" alt="Gambar Artikel" />
+                    <h1> Jetbus 5 SHD</h1>
+                    <b>Space Frame</b><b>Single Glass</b><b>Comfortabel Class</b>
+                    <p>Long distance travel solution with extra wide single glass for passengers, maksimum visibiity.</p>
+                    <a href="">Read more</a>
+                </div>
+            </div>
+
+            <div id="sidebar">
+                <h2>AdiPutro Group</h2>
+                <p>AdiPutro adalah karoseri pembuat bodi bus terkemuka asal malang yang menyediakan kesan elegan, premium, dan futuristik bagi bodi bus buatannya.</p>
+                <h2>Berkolaborasi dengan:</h2>
+                <ul>
+                    <li><a href="">Volvo</a></li>
+                    <li><a href="">Mercedes-Benz</a></li>
+                    <li><a href="">Scania</a></li>
+                    <li><a href="">Isuzu</a></li>
+                    <li><a href="">Hino</a></li>
+                    <li><a href="">Golden Dragon</a></li>
+                </ul>
+            </div>
+     
+            <div id="footer">
+                <p>AdiPutro Group copyright 2026 by Ziyyy</p>
+            </div>
+        </div>
+    </body>
+</htmls>
